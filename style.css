@@ -1,0 +1,224 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #F8F9FA;
+    margin-left: 250px;
+    margin-right: 250px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    text-align: center;
+}
+
+.link {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.link:hover {
+    border-bottom: 1px solid #FFFFFF;
+    border-spacing: 0px;
+    padding-bottom: 0px;
+}
+
+header {
+    text-align: center;
+    gap: 10px;
+    position: sticky;
+    top: 2px;
+    background-color: #1E293B;
+    border-radius: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+
+.button {
+    text-decoration: none;
+    color: white;
+    background-color: #EA580C;
+    padding: 5px;
+    border-radius: 12px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 200px;
+    margin: 20px auto;
+
+}
+
+.tecnologia-images {
+    box-sizing: content-box;
+    height: 30px;
+    width: 30px;
+    object-fit: cover;
+}
+
+.container-html {
+    display: flex;
+    align-items: center;
+    gap: 3px;
+}
+
+.container-css {
+    display: flex;
+    align-items: center;
+    gap: 3px;
+}
+
+.container-js {
+    display: flex;
+    align-items: center;
+    gap: 3px;
+}
+
+.text-fn {
+    font-weight: bold;
+}
+
+.name-buiness {
+    font-weight: bold;
+}
+
+.year-buiness {
+    font-weight: lighter;
+}
+
+#see-page {
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    padding: 5px;
+    border-radius: 12px;
+}
+
+#container-contact {
+background-color: #91BDFA;
+  padding: 30px;
+  border-radius: 8px;
+  width: 100%;            
+  max-width: 450px;       
+  margin: 40px auto;
+}
+
+.title {
+    color: #FFFFFF;
+    position: left;
+}
+
+p {
+    color: #212529;
+}
+
+form {
+    text-align: center;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+textarea {
+    width: 400px;
+    height: 150px;
+    resize: none;
+    margin-top: 10px;
+}
+
+#button-send {
+    height: 25px;
+    width: 200px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 10px;
+    border-radius: 12px;
+    border: 1px solid #FD7E14;
+    background-color: #FD7E14;
+}
+
+input {
+    margin: 3px;
+    height: 25px;
+    width: 250px;
+    border: white;
+}
+
+input:focus {
+    border-color: white;
+}
+
+label {
+    font-size: 17px;
+}
+
+.title-contact {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.h2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.heading-2 {
+    color: #2563EB;
+}
+
+.foto-h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img {
+    height: 100px;
+    width: 100px;
+    padding-right: 10px;
+}
+
+ul {
+    list-style: none; /* Quita los puntos negros por defecto */
+    padding: 0;       /* Elimina el espacio que el navegador añade a la izquierda */
+    margin: 0;
+}
+
+.name-proyect {
+    text-align: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.tecnologias {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    margin: 20px 0;
+}
+
+main {
+    max-width: 800px;         /* Limita el ancho de la web a una medida cómoda para leer */
+    margin: 40px auto;        /* Centra todo el bloque en la pantalla (auto a los lados) */
+    padding: 0 20px;          /* Evita que el contenido toque las esquinas de la pantalla */
+    
+    /* Sistema Flexbox para ordenar todo en vertical */
+    display: flex;
+    flex-direction: column;
+    gap: 35px;                /* Separa de forma idéntica cada título, párrafo y sección */
+}
+
+/* Ajuste limpio para tus párrafos dentro de main */
+main p {
+    line-height: 1.6;         /* Da espacio entre líneas para que respire el texto */
+    text-align: justify;      /* Alinea los bordes izquierdo y derecho perfectamente */
+    margin: 0;                /* Deja que el 'gap' del main controle la separación */
+}
